@@ -11,7 +11,6 @@ export default function Skills() {
             <div class="description">
                 <MainSkills/>
             </div>
-            <button>Contact Me</button>
         </div>
     )
 }
