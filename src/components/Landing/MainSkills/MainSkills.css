@@ -1,0 +1,14 @@
+
+.skill-list{
+    padding: .6rem;
+    height: max-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style-type: none;
+    row-gap: 0;
+}
+.skill-list li{
+    display: flex;
+    align-items: center;
+   padding: .5rem;
+}
