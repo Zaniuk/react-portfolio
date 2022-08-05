@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+$background: #000814;
+$background-light: #001D3D;
+$prussian-blue: #003566;
+$amber: #FF7D00;
+$amber-light: rgba(255, 123, 0, 0.746);
+$timberwolf: #D3D0CB;
 .fh{
     min-height: 100vh;
 }
@@ -8,6 +14,7 @@
 }
 body{
     color: white;
-    background-color: #13119F;
+    background-color: $background;
     font-family: 'Rubik', sans-serif;
 }
+
