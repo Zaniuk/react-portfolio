@@ -9,7 +9,7 @@ export default function Presentation() {
                 <p>
                     Natural <span className="accent">challenge-seeker</span>, a <span className="accent">fast-learner</span> and <span className="accent">multidisciplinary</span> person. I'm searching for my first oportunity to work on a software development team.
                 </p>
-                <button>Contact me</button>
+                <a href="mailto:geronimozaniuk2000@gmail.com"><button>Contact me</button></a>
             </div>
             
         </>
