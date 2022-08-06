@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function Project({projectName, projectAlt, projectImg, projectAbout, projectType}) {
   return (
-    <div class="card">
-    <div class="card-header">
+    <div className="card">
+    <div className="card-header">
       <img src={projectImg} alt={projectAlt} />
     </div>
-    <div class="card-body">
-      <span class="tag tag-pink">{projectType}</span>
+    <div className="card-body">
+      <span className="tag tag-pink">{projectType}</span>
       <h4>
         {projectName}
       </h4>
