@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Project({projectName, projectAlt, projectImg, projectAbout, projectType}) {
+export default function Project({projectName, projectAlt, projectImg, projectAbout, projectType, githubLink}) {
   return (
     <div className="card">
     <div className="card-header">
@@ -15,9 +15,9 @@ export default function Project({projectName, projectAlt, projectImg, projectAbo
         {projectAbout}
       </p>
       <div className="btn-container">
-        <button>Demo</button>
-        <button>Github</button>
-        <button>About</button>
+        <a href={githubLink}><button>Github</button></a>
+        <button className='project-disabled'>Demo</button>
+        <button className='project-disabled'>About</button>
       </div>
     </div>
   </div>
