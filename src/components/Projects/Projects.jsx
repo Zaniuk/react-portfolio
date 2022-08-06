@@ -1,7 +1,7 @@
 import React from 'react'
 import Project from './Project/Project'
 import './Projects.scss'
-
+import img from '../../assets/istockphoto-1047259374-612x612.jpg'
 export default function Projects() {
   return (
     <section className='projects fh'>
@@ -10,7 +10,7 @@ export default function Projects() {
       <h6><span>(Demo and About buttons are disabled due to blog under development)</span></h6>
         <div className="projects-container">
           <Project
-            projectImg={'https://picsum.photos/200'}
+            projectImg={img}
             projectAlt={'Blog API'}
             projectName={'Blog API'}
             projectAbout={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, vitae culpa officiis libero voluptatem'}
@@ -18,7 +18,7 @@ export default function Projects() {
             githubLink={'https://github.com/Zaniuk/portfolio-backend'}
           />
           <Project
-            projectImg={'https://picsum.photos/200'}
+            projectImg={img}
             projectAlt={'ABM Operations webpage'}
             projectName={'ABM Operations webpage'}
             projectAbout={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, vitae culpa officiis libero voluptatem'}
@@ -26,7 +26,7 @@ export default function Projects() {
             githubLink={'https://github.com/Zaniuk/AlkemyChallenge'}
           />
           <Project
-            projectImg={'https://picsum.photos/200'}
+            projectImg={img}
             projectAlt={'The Wine Valley'}
             projectName={'The Wine Valley'}
             projectAbout={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, vitae culpa officiis libero voluptatem'}
