@@ -19,6 +19,19 @@ footer{
             &:hover{
                 color: $maize-crayola;
             }
+            span{
+                font-size: 2rem;
+                padding: 0 .6rem;
+            }
+            .linkedin{
+                color: #0077b5;
+            }
+            .github{
+                color: white;
+            }
+            .gmail{
+                color: crimson;
+            }
         }
     }
 }
