@@ -1,0 +1,24 @@
+@import '../../variables';
+.blog{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 4rem;
+        color: $amber;
+    }
+    .go-home{
+        button{
+            padding: 2rem 4rem;
+            font-size: 2rem;
+            border: none;
+            border-radius: .3rem;
+            background-color: $amber;
+            transition: 0.3s ease-in-out;
+            &:hover{
+                background-color: $maize-crayola;
+            }
+        }
+    }
+}
