@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function SkillItem({skill, img, altImg}) {
+export default function SkillItem({skill, icon}) {
   return (
     <li>
-        <img src={img} alt={altImg} />
+      <span className="icon">{icon}</span>
         <span>{skill}</span>
     </li>
   )
