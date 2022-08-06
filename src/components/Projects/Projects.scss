@@ -1,6 +1,13 @@
+@import '../../variables.scss';
+
+.projects-wrapper{
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
 .projects-container {
     display: grid;
-
     justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
@@ -11,14 +18,10 @@
     }
 }
 
-* {
-    box-sizing: border-box;
-}
-
 .card {
     margin: 10px;
-    color: black;
-    background-color: #fff;
+    color: $timberwolf;
+    background-color: $background-light;
     border-radius: 10px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -37,7 +40,9 @@
         align-items: flex-start;
         padding: 10px;
         min-height: 250px;
-    
+        h4{
+            color: $amber;
+        }
         p {
             font-size: 13px;
             margin: 0 0 40px;
@@ -66,6 +71,21 @@
             display: flex;
             width: 100%;
             justify-content: space-between;
+            button{
+                font-size: .8rem;
+                font-weight: 600;
+                color: $background;
+                padding: .6em 1rem;
+                background-color: $amber;
+                border: none;
+                border-radius: .2rem;
+                box-shadow: unset;
+                transition: 300ms ease-in-out;
+                &:hover{
+                    background-color: $maize-crayola;
+                    
+                }
+            }
         }
     }
 }
