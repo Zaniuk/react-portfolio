@@ -1,0 +1,24 @@
+@import '../../variables';
+footer{
+    height: 120px;
+    background-color: $background;
+    border-top: 1px solid $amber;
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        a{
+            color: $amber;
+            text-decoration: none;
+            font-size: 1.3rem;
+            transition: 300ms ease-in-out;
+            &:hover{
+                color: $maize-crayola;
+            }
+        }
+    }
+}
