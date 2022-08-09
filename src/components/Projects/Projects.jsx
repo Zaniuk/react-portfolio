@@ -13,7 +13,7 @@ export default function Projects() {
             projectImg={img}
             projectAlt={'Blog API'}
             projectName={'Blog API'}
-            projectAbout={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, vitae culpa officiis libero voluptatem'}
+            projectAbout={'An implementation of a blog system for my personal page. '}
             projectType={'Backend'}
             githubLink={'https://github.com/Zaniuk/portfolio-backend'}
           />
@@ -21,7 +21,7 @@ export default function Projects() {
             projectImg={img}
             projectAlt={'ABM Operations webpage'}
             projectName={'ABM Operations webpage'}
-            projectAbout={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, vitae culpa officiis libero voluptatem'}
+            projectAbout={'Made with Node, Express, React and PostgreSQL'}
             projectType={'Fullstack'}
             githubLink={'https://github.com/Zaniuk/AlkemyChallenge'}
           />
@@ -29,7 +29,7 @@ export default function Projects() {
             projectImg={img}
             projectAlt={'The Wine Valley'}
             projectName={'The Wine Valley'}
-            projectAbout={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, vitae culpa officiis libero voluptatem'}
+            projectAbout={'Static page of a wine catalog made as a team.'}
             projectType={'Frontend'}
             githubLink={'https://github.com/Zaniuk/TiendaVinos'}
           />
